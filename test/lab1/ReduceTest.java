@@ -16,31 +16,31 @@ public class ReduceTest {
 //                "Reduce.reduce(100) is incorrect");
 //    }
 //
-//    @Test
-//    public void testReduceTwoHundred() {
-//        assertEquals(10,
-//                Reduce.reduce(200),
-//                "Reduce.reduce(200) is incorrect");
-//    }
-//
-//    @Test
-//    public void testReduceFortyTwo() {
-//        assertEquals(8,
-//                Reduce.reduce(42),
-//                "Reduce.reduce(42) is incorrect");
-//    }
-//
-//    @Test
-//    public void testReduceOne() {
-//        assertEquals(1,
-//                Reduce.reduce(1),
-//                "Reduce.reduce(1) is incorrect");
-//    }
-//
-//    @Test
-//    public void testReduceTwo() {
-//        assertEquals(2,
-//                Reduce.reduce(2),
-//                "Reduce.reduce(2) is incorrect");
-//    }
+    @Test
+    public void testReduceTwoHundred() {
+        assertEquals(10,
+                Reduce.reduce(200),
+                "Reduce.reduce(200) is incorrect");
+    }
+
+    @Test
+    public void testReduceFortyTwo() {
+        assertEquals(8,
+                Reduce.reduce(42),
+                "Reduce.reduce(42) is incorrect");
+    }
+
+    @Test
+    public void testReduceOne() {
+        assertEquals(1,
+                Reduce.reduce(1),
+                "Reduce.reduce(1) is incorrect");
+    }
+
+    @Test
+    public void testReduceTwo() {
+        assertEquals(2,
+                Reduce.reduce(2),
+                "Reduce.reduce(2) is incorrect");
+    }
 }
